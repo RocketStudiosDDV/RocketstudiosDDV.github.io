@@ -5,7 +5,13 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'Playfair+Display';
+  font-size: 1.2rem;
+  font-weight: 400
+}
+
+a{
+  font-family: 'Playfair+Display';
 }
 
 h1,
@@ -16,6 +22,109 @@ h5,
 h6 {
   font-family: 'Playfair+Display';
   font-weight: 800 !important;
+}
+
+.box{
+  text-align: center;
+  border-style: dotted;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 500px;
+  padding-left: 80px;
+}
+
+.imgPerson {
+  height: 18rem;
+  width: 18rem;
+  top: -20rem;
+  right: -20rem;
+  margin: 25px;
+  float: left;
+}
+
+div.name {
+  padding: 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+div.Rol {
+  padding: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnInfo1 {
+  background-color:#aaa;
+  float: left ;
+  height: 300px; /* Should be removed. Only for demonstration */
+  width: 20%;
+  margin-left: 45px;
+  margin-right: 45px;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.columnInfo {
+  background-color:#aaa;
+  float: left ;
+  height: 300px; /* Should be removed. Only for demonstration */
+  width: 20%;
+  margin-right: 45px;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: 'Playfair+Display';
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffbc01;
 }
 
 .btn-xl {
@@ -60,6 +169,18 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background-image: url("../Fondo2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead2 {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-color: black;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
