@@ -31,8 +31,9 @@ h6 {
 }
 
 .box{
+  align-items: center;
   text-align: center;
-  padding-top: 50px;
+    padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 500px;
   padding-left: 80px;
