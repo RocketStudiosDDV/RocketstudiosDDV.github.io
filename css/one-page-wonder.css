@@ -118,7 +118,7 @@ a.links {
   font-size: 20px;
 }
 
-a.links:link {color: #ff0000;}
+a.links:link {color: black;}
 a.links:visited {color: black;}
 a.links:hover {color: #ffbc01;}
 
